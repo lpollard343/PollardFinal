@@ -1,0 +1,3 @@
+"0","NEON_MAGs_metagenomes_chemistry <- NEON_MAGs %>% "
+"0","  left_join(NEON_metagenomes, by = ""Sample Name"") %>% "
+"0","  left_join(NEON_chemistry, by = c(""Sample Name"" = ""genomicsSampleID""))"

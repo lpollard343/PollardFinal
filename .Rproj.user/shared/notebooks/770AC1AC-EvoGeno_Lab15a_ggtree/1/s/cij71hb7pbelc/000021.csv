@@ -1,0 +1,4 @@
+"0","tree_arc <- treeio::read.tree(""data/NEON/gtdbtk.ar53.decorated.tree"")"
+"2","Warning: cannot open file 'data/NEON/gtdbtk.ar53.decorated.tree': No such file or directory"
+"2","Error in file(file, ""r"") : cannot open the connection
+"

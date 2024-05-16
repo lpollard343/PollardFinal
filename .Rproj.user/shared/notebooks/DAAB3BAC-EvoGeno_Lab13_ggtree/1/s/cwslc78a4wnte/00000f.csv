@@ -1,0 +1,26 @@
+"0","library(tidyverse)"
+"0","library(ggtree)"
+"0","tree <- read.tree(""data/lab13/tree_newick.nwk"")"
+"0","tree"
+"1","
+Phylogenetic tree with 13 tips and 12 internal nodes.
+
+"
+"1","Tip labels:
+"
+"1","  "
+"1",""
+"1","A, B, C, D, E, F"
+"1",""
+"1",", ...
+"
+"1","
+"
+"1",""
+"1","Rooted"
+"1",""
+"1","; "
+"1","includes branch lengths."
+"1",""
+"1","
+"

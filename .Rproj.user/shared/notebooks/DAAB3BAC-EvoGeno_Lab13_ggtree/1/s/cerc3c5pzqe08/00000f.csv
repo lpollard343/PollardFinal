@@ -1,0 +1,2 @@
+"0","# build a ggplot with a geom_tree"
+"0","ggplot(tree) + geom_tree() + theme_tree()"

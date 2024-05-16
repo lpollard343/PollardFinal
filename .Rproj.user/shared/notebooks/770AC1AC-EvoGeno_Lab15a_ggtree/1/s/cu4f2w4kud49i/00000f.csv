@@ -1,0 +1,3 @@
+"0","NEON_chemistry <- read_tsv(""data/NEON/neon_plot_soilChem1_metadata.tsv"") %>% "
+"0","  # remove -COMP from genomicsSampleID"
+"0","  mutate_at(""genomicsSampleID"", str_replace, ""-COMP"", """") "

@@ -1,0 +1,5 @@
+"0","NEON_metagenomes <- read_tsv(""data/NEON/exported_img_data_Gs0161344_NEON.tsv"") %>% "
+"0","  select(-c(`Domain`, `Sequencing Status`, `Sequencing Center`)) %>% "
+"0","  rename(`Genome Name` = `Genome Name / Sample Name`) %>% "
+"0","  filter(str_detect(`Genome Name`, 're-annotation', negate = T)) %>% "
+"0","  filter(str_detect(`Genome Name`, 'WREF plot', negate = T)) "
